@@ -26,7 +26,7 @@ public class TopGroundsActivity extends AppCompatActivity {
         listView.setAdapter(groundsAdapter);
     }
 
-    public void getMovie(View listItem) {
+    public void getGround(View listItem) {
         Ground ground = (Ground) listItem.getTag();
         Log.d("Stadium Name:", ground.getName());
     }
